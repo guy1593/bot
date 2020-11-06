@@ -8,7 +8,7 @@
    },
    "dependencies": {
     "discord.py"
-    "re"
+    "Regular expression operations"
     "urllib.request"
     "random"
    }
