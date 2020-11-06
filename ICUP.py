@@ -11,13 +11,6 @@ shut = ["Bob'nt#8977"]
 
 messages = 0
 
-def read_token():
-    with open('token2.txt','r') as f:
-        lines = f.readlines()
-        return lines[0].strip()
-
-token = read_token()
-
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
@@ -90,4 +83,4 @@ async def on_message(message):
         print(f'''User: {message.author} tried to do command {message.content} in channel {message.channel}''')
 
 
-client.run(BOT_TOKEN)
+client.run(NzU5NzIxMDg2MDEwMTMwNDYy.X3BnZQ.uE5xzMrRnBDyAxacrmM3-wNTZl0)
