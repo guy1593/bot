@@ -1,4 +1,4 @@
 git+https://github.com/Rapptz/discord.py
-urllib.request
+urllib3
 PyNaCl
 dnspython
