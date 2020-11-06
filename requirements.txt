@@ -1,5 +1,4 @@
 git+https://github.com/Rapptz/discord.py
-Regular expression operations
 urllib.request
 PyNaCl
 dnspython
