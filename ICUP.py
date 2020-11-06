@@ -90,4 +90,4 @@ async def on_message(message):
         print(f'''User: {message.author} tried to do command {message.content} in channel {message.channel}''')
 
 
-client.run(process.env.BOT_TOKEN)
+client.run(BOT_TOKEN)
